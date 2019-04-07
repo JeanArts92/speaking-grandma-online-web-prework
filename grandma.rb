@@ -1,12 +1,12 @@
-def speak_to_grandma
-  if phrase == "I love you Grandma!".uppercase
+def speak_to_grandma(string = "I LOVE YOU GRANDMA!")
+  if string == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase == "Hi Nana, how are you?"
-    puts "HUH?! SPEAK UP, SONNY!"
-  elsif phrase == "Hi!"
-    puts "HUH?! SPEAK UP, SONNY!"
-    elsif phrase == "WHAT DID YOU EAT TODAY?"
-    puts "NO, NOT SINCE 1938"
-    elsif phrase == "WHAT?"
-    puts "NO, NOT SINCE 1938"
+    elsif string == "Hi nana, how are you?"
+    puts "HUH!? SPEAK UP SUNNY!"
+    elsif string == "WHAT DID YOU EAT TODAY"
+    puts "NO, NOT SINCE 1938!"
+    else string == "WHAT"
+    puts "NO, NOT SINCE 1938!"
   end
+end 
+  
